@@ -1,15 +1,22 @@
 """
 Clase Perro.
 
-Autor: Jaime Rabasco Ronda.
+Autor: Adrián González Martínez.
 """
 
 
 class Perro:
     def __init__(self):
+        """
+        init de la clase Perro
+        """
         self.guau = 'Guau'
 
     def ladrar(self):
+        """
+        hace un print self.guau
+        :return:
+        """
         print(self.guau)
 
 
